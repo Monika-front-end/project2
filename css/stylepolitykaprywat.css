@@ -157,7 +157,7 @@ main ul {
     margin: 10px 0;
 }
 
-::-webkit-input-placeholder {
+::-webkit-input.form-control-placeholder {
     color: #7ea8cb;
 }
 
@@ -169,7 +169,17 @@ main ul {
     color: #7ea8cb;
 }
 
-:-ms-input-placeholder {
+:-ms-input.form-control-placeholder {
+    color: #7ea8cb;
+}
+
+input.form-control::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: #7ea8cb;
+}
+
+input.form-control:-moz-placeholder,
+textarea:-moz-placeholder {
     color: #7ea8cb;
 }
 
